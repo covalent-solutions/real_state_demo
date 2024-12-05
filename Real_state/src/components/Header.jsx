@@ -4,7 +4,7 @@ function Header(){
     return(
         <>
         <div className="flex justify-between ">
-                <div className="flex">
+                <div className="flex pl-16">
                     <img src={Covalent} alt="default_image" className="w-32 h-32" />
                 </div>
                 <div className="flex space-x-4 justify-end items-center text-lg text-white">
@@ -14,7 +14,7 @@ function Header(){
                     <div className="pl-16">
                         <a href="#properties">Properties</a>
                     </div>
-                    <div className="pl-16">
+                    <div className="pl-16 pr-16">
                         <a href="#contact">Contact us</a>
                     </div>
                 </div>

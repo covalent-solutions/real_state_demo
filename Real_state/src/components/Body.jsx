@@ -1,11 +1,9 @@
 function Body() {
     return (
       <>
-        <div className="text-white text-lg" >
+        <div className="flex flex-col flex justify-center align-center  text-white text-lg" >
             <div>
                 USA’s TOP REAL-ESTATE COMPANY FOR MORE THAN 30 YEARS
-                <br/>
-                <br/>
             </div>
             
             <div >
