@@ -1,25 +1,33 @@
-import Covalent from "../assets/Covalent.svg"
+import Covalent from "../assets/Covalent.svg";
+import { navLinks } from "../constants";
 
-function Header(){
-    return(
-        <>
-        <div className="flex justify-between ">
-                <div className="flex pl-16">
-                    <img src={Covalent} alt="default_image" className="w-32 h-32" />
-                </div>
-                <div className="flex space-x-4 justify-end items-center text-lg text-white">
-                    <div className="pl-16">
-                        <a href="#about">About us</a>
-                    </div>
-                    <div className="pl-16">
-                        <a href="#properties">Properties</a>
-                    </div>
-                    <div className="pl-16 pr-16">
-                        <a href="#contact">Contact us</a>
-                    </div>
-                </div>
+function Header() {
+  return (
+    <>
+      <header className="px-12 lg:px-24 py-3 absolute w-full">
+        <nav className="flex justify-between items-center ">
+          <div className="flex justify-center items-center">
+            <img src={Covalent} alt="logo" width={150} height={150} />
+          </div>
+          <ul className="flex justify-center items-center gap-16 max-lg:hidden">
+            {navLinks.map((link) => (
+              <li key={link.label}>
+                <a
+                  href={link.href}
+                  className="leading-normal text-lg text-white hover:text-slate-800"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+
+          </ul>
+            <div className="hidden max-lg:block">
+                <p>logo</p>
             </div>
-        </>
-    )
+        </nav>
+      </header>
+    </>
+  );
 }
 export default Header;

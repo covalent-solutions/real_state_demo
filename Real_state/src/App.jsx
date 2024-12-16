@@ -1,14 +1,9 @@
-import './App.css'
-import Header from './components/Header'
-import Body from './components/Body'
+import Hero from './components/Hero'
 
 function App() {
   return (
     <>
-      <div className="bg-[url('./assets/Landing_page_gif.gif')] bg-cover bg-center min-h-screen">
-        <Header/>
-        <Body/>
-      </div>
+      <Hero />
     </>
   )
 }
