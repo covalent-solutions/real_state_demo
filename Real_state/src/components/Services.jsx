@@ -17,8 +17,8 @@ const Services = () => {
               USA’s TOP REAL-ESTATE COMPANY <br /> FOR MORE THAN 30 YEARS
             </p>
           </div>
-          <div className="flex justify-center items-center gap-10 sm:gap-16 flex-wrap mb-4">
-            <div className="relative hover:opacity-95 transition-all duration-200 ease-in-out cursor-pointer">
+          <div className="flex justify-center items-center gap-10 sm:gap-12 xl:gap-16  flex-wrap mb-4">
+            <div className="relative group cursor-pointer flex justify-center items-center overflow-hidden">
               <img
                 src={buy}
                 alt=""
@@ -26,11 +26,11 @@ const Services = () => {
                 height={300}
                 className="rounded-md object-cover"
               />
-              <p className="absolute inset-0 flex items-center justify-center text-white text-4xl tracking-wide font-thin">
-                BUY
-              </p>
+              <div className="absolute flex justify-center items-center w-full h-full bg-custom-light bg-opacity-15 opacity-0 pb-[70%] group-hover:pb-0 group-hover:opacity-100 transition-all duration-500 ease-in-out rounded-md ">
+                <p className="text-3xl text-white">BUY</p>
+              </div>
             </div>
-            <div className="relative hover:opacity-95 transition-all duration-200 ease-in-out cursor-pointer">
+            <div className="relative group cursor-pointer flex justify-center items-center overflow-hidden">
               <img
                 src={sell}
                 alt=""
@@ -38,11 +38,11 @@ const Services = () => {
                 height={300}
                 className="rounded-md object-cover"
               />
-              <p className="absolute inset-0 flex items-center justify-center text-white text-4xl tracking-wide font-thin">
-                SELL
-              </p>
+              <div className="absolute flex justify-center items-center w-full h-full bg-custom-light bg-opacity-15 opacity-0 pb-[70%] group-hover:pb-0 group-hover:opacity-100 transition-all duration-500 ease-in-out rounded-md ">
+                <p className="text-3xl text-white">SELL</p>
+              </div>
             </div>
-            <div className="relative hover:opacity-95 transition-all duration-200 ease-in-out cursor-pointer">
+            <div className="relative group cursor-pointer flex justify-center items-center overflow-hidden">
               <img
                 src={rent}
                 alt=""
@@ -50,9 +50,9 @@ const Services = () => {
                 height={300}
                 className="rounded-md object-cover"
               />
-              <p className="absolute inset-0 flex items-center justify-center text-white text-4xl tracking-wide font-thin">
-                RENT
-              </p>
+              <div className="absolute flex justify-center items-center w-full h-full bg-custom-light bg-opacity-15 opacity-0 pb-[70%] group-hover:pb-0 group-hover:opacity-100 transition-all duration-500 ease-in-out rounded-md ">
+                <p className="text-3xl text-white">RENT</p>
+              </div>
             </div>
           </div>
         </div>
