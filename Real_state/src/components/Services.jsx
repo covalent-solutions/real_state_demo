@@ -6,7 +6,7 @@ import rent from "../assets/Rent.svg";
 
 const Services = () => {
   return (
-    <section className="mb-10">
+    <section id="services" className="mb-10">
       <div className="flex justify-center items-center flex-col mt-28">
         <div className="opacity-30 absolute -bottom-[8.5rem]">
           <img src={Covalent} alt="" width={200} height={200} />
