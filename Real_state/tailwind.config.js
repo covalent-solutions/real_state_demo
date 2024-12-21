@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         custom: {
-          light: '#D8D2EC', // Custom color with a name
+          light: '#F3EDEB', // Custom color with a name
         },
       },
     },

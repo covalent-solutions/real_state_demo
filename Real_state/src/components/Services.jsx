@@ -6,13 +6,13 @@ import rent from "../assets/Rent.svg";
 
 const Services = () => {
   return (
-    <section className="mb-10">
+    <section id="services" className="mb-10 p-8">
       <div className="flex justify-center items-center flex-col mt-28">
         <div className="opacity-30 absolute -bottom-[8.5rem]">
           <img src={Covalent} alt="" width={200} height={200} />
         </div>
         <div className="flex  flex-col justify-center items-center gap-8 sm:gap-16 relative">
-          <div className="text-center text-xl md:text-3xl font-thin">
+          <div className="text-center text-xl md:text-3xl font-thin text-slate-700">
             <p>
               USA’s TOP REAL-ESTATE COMPANY <br /> FOR MORE THAN 30 YEARS
             </p>
